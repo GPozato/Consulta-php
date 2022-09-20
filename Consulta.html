@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta</title>
+</head>
+<body>
+    <div class="container">
+            <form method="POST" action="">
+                <label class="cod"><b>Código: </b></label>
+                <input type="text" name="codigo" id="codigo"><br>
+                <input class="botao" type="submit" value="Consultar" id="consultar" name="consultar">
+            </form>        
+    </div>
+
+    <style>
+
+        body {
+            margin: 0px;
+            border: 0px;
+        }
+        .container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .cod{
+            font-size: 20pt;
+            font-family: sans-serif;
+        }
+
+        .botao{
+            margin: 10px;
+            background: #9c9c9c;
+            cursor: pointer;
+            justify-content: center;
+        }
+
+        .botao:hover{
+            background: #525252;
+        }
+    </style>
+</body>
+</html>
